@@ -4,7 +4,7 @@
 
 ### To build the package
 
-Run the following command to create the terminal-package-update_<version>.deb file
+Run the following command to create the terminal-package-update_&lt;version>.deb file
 
 ```shell
 dpkg-deb --build ./terminal-package-update_<version>
