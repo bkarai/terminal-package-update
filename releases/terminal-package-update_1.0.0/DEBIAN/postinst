@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Script will exit with failure in case any commands fail.
+set -e
+
+FINAL_BINARY_PATH="/usr/local/bin/terminal-package-update"
+DESKTOP_CONFIG_FILE_NAME="terminal-package-update.desktop"
+DESKTOP_AUTOSTART_DIR="/home/${SUDO_USER}/.config/autostart"
+
+chown root $FINAL_BINARY_PATH
+chmod u+s $FINAL_BINARY_PATH
+
+mkdir -p $DESKTOP_AUTOSTART_DIR
+mv "/etc/${DESKTOP_CONFIG_FILE_NAME}" "${DESKTOP_AUTOSTART_DIR}/${DESKTOP_CONFIG_FILE_NAME}"

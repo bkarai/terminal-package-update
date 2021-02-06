@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=gnome-terminal -- /bin/sh -c 'update-all-packages'
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_CA]=package update
+Name=package update
+Comment[en_CA]=
+Comment=
