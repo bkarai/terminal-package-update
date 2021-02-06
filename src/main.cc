@@ -6,7 +6,7 @@ int main()
 {
     setuid(0);
     const char *bash = "bash";
-    const char *script_name = "/usr/local/bin/.update-all-packages.sh";
+    const char *script_name = "/usr/local/bin/terminal-package-update.sh";
     char *argv[3];
     argv[0] = (char *)bash;
     argv[1] = (char *)script_name;
