@@ -3,7 +3,7 @@ Version: 1.0.0
 Section: base
 Priority: optional
 Architecture: i386
-Depends: libsomethingorrather (>= 1.2.13), anotherDependency (>= 1.2.6)
+Depends: gnome-terminal, dash
 Maintainer: Brandon Karai <b.karai1996@gmail.com>
 Description: terminal-package-update
  Opens a terminal and updates all of your packages when you log in

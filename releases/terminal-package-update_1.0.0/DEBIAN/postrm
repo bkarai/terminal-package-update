@@ -5,4 +5,4 @@ set -e
 DESKTOP_CONFIG_FILE_NAME="terminal-package-update.desktop"
 DESKTOP_AUTOSTART_DIR="/home/${SUDO_USER}/.config/autostart"
 
-rm "${DESKTOP_AUTOSTART_DIR}/${DESKTOP_AUTOSTART_DIR}"
+rm -f "${DESKTOP_AUTOSTART_DIR}/${DESKTOP_CONFIG_FILE_NAME}"
