@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=gnome-terminal -- /bin/sh -c 'terminal-package-update'
+Exec=gnome-terminal --maximize -- /bin/sh -c 'terminal-package-update'
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
