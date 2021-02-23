@@ -2,6 +2,8 @@
 
 A Debian package that launches a terminal when you log in and updates all of your packages and removes obsolete packages.
 
+![](demo.gif)
+
 ## Why was this created?
 
 Of course you could just configure your package manager to update packages automatically, but that's not fun. I personally enjoy seeing which packages are being updated. I also like to monitor the updates for any failures.
